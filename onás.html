@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaviareň</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+<section class="sub-header">
+  <nav>
+    <a href="onás.html"><img src="https://www.blackcoffee.sk/sites/default/files/blackcoffee/kavickari.png" alt=""></a>
+    <div class="nav-links" id="navLinks">
+      <i class="fa fa-window-close" onclick="hideMenu()"></i>
+
+      <ul>
+        <li> <li><a href="index.html"><h4>DOMOV</h4></a></li>
+        <li><a href="onás.html"><h4>O NÁS</h4></a></li>
+        <li><a href="káva.html"><h4>KÁVA</h4></a></li>
+        <li><a href="novinky.html"><h4>NOVINKY</h4></a></li>
+        <li><a href="kontakt.html"><h4>KONTAKT</h4></a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+  </nav>
+
+<h1>O nás</h1>
+
+</section>
+
+
+<section class="o-nas">
+
+<div class="row">
+  <div class="o-nas-col">
+  <h1>Patríme k tým najlepším kaviarňam na Slovensku!</h1>
+    <p>Naše dve kaviarne sa nachádzajú v dvoch lokalitách na Slovensku. Prvá kaviareň sa nachádza v Žiline a druhá v Košickom kraji v meste Košice.
+    Ponúkame široký sortiment rôznych druhov káv a dokonca roznášame objednávky priamo na vašu adresu. Zakúpiť si kávu môžeš priamo na mieste alebo nás
+    môžeš rovno kontaktovať a my ti ju rovno doručíme.</p>
+    <a href="kontakt.html" class="hero-btn red-btn">Zisti viac></a>
+  </div>
+  <div class="o nas-col">
+    <img src="https://media.istockphoto.com/photos/third-wave-coffee-shop-interior-picture-id1158448833?k=20&m=1158448833&s=612x612&w=0&h=pAMXRHu3RyQEKbdyBJ4Khr6kFfSg5pehyWnaqHP38NI=" alt="">
+    <img src=" https://uktechnews.co.uk/wp-content/uploads/2021/05/pret.jpeg" alt="">
+
+
+  </div>
+
+  </div>
+
+</section>
+
+
+
+<section class="footer">
+
+  <h2>O nás</h2>
+  <br>
+  <p>Kontaktovať nás môžeš aj na našich sociálnych sieťach.</p>
+
+  <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+  </div>
+  <br>
+  <br>
+  <p>Autorka stránky <i class="fa fa-heart-o"></i> Katarína Ganobjáková</p>
+
+</section>
+
+
+<script>
+
+  let navLinks = document.getElementById("navLinks");
+
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+
+</script>
+
+
+
+</body>
+</html>

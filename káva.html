@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaviareň</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+<section class="sub-header">
+  <nav>
+    <a href="káva.html"><img src="https://www.blackcoffee.sk/sites/default/files/blackcoffee/kavickari.png" alt=""></a>
+    <div class="nav-links" id="navLinks">
+      <i class="fa fa-window-close" onclick="hideMenu()"></i>
+
+      <ul>
+        <li> <li><a href="index.html"><h4>DOMOV</h4></a></li>
+        <li><a href="onás.html"><h4>O NÁS</h4></a></li>
+        <li><a href="káva.html"><h4>KÁVA</h4></a></li>
+        <li><a href="novinky.html"><h4>NOVINKY</h4></a></li>
+        <li><a href="kontakt.html"><h4>KONTAKT</h4></a></li>
+      </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+  </nav>
+
+
+</section>
+
+
+<section class="kava">
+  <h1>Káva na predaj</h1>
+  <p>Vyber si svoju chuť!</p>
+
+  <div class="row">
+    <div class="kava-col">
+      <h3>ESPRESSO</h3>
+      <p>Espreso alebo espresso je nápoj pripravený v espreso kávovare z jemno namletej kávy a vody. Pravé talianske espresso vyteká 25 sekúnd a obsahuje 25 ml vody. Malo by natekať do predohriatej šálky z hrubostenného porcelánu so zaguľateným dnom.</p>
+      <br>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Hokitika_Cheese_and_Deli%2C_Hokitika_%283526706594%29.jpg/1200px-Hokitika_Cheese_and_Deli%2C_Hokitika_%283526706594%29.jpg" alt="">
+
+    </div>
+
+    <div class="kava-col">
+      <h3>AMERICANO</h3>
+      <p>Americano je druh kávového nápoja pripravený zriedením espressa horúcou vodou, ktoré mu dodáva podobnú silu ako tradičná káva, ale má inú príchuť. Sila nápoja Americano sa líši podľa počtu dávok espressa a množstva pridanej vody. </p>
+      <br>
+      <img src="https://images.unsplash.com/photo-1580661869408-55ab23f2ca6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8&w=1000&q=80" alt="">
+    </div>
+
+    <div class="kava-col">
+      <h3>LATTE</h3>
+      <p>Caffellatte alebo Latte je taliansky druh bielej kávy. Jeho základ tvorí espresso, ktoré je doplnené speneným teplým mliekom. Často sa pripravuje aj ochutené rôznymi sirupmi. Vo variante latte macchiato sa podáva vo vysokom pohári.</p>
+      <br>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Coffee-latte_-_Petr_Kratochvil.jpg" alt="">
+
+    </div>
+
+    <div class="kava-col">
+      <h3>CAPPUCCINO</h3>
+      <p>Kapučíno (z tal. cappuccino) je pôvodom taliansky kávový nápoj, ktorý sa skladá z 1/3 espressa, 1/3 mlieka a 1/3 mliečnej peny. Do väčšej šálky si urobíme espreso a našľaháme penu. Aby bolo kapučíno naozaj dobré, je ideálne mať vychladenú kanvičku a vychladené plnotučné mlieko. </p>
+      <br>
+      <img src="https://cf.shopee.com.my/file/24771c3170829a8d8fd328b3a7adaf97" alt="">
+    </div>
+
+    <div class="kava-col">
+      <h3>MOCCACINO</h3>
+      <p>Moccacino je jedným z druhov caffe latte. Je to teplý nápoj pripravený zmiešaním čokoládového sirupu s menším množstvom espressa (v pomere až 2:1) a doplnený odpovedajúcim množstvom speneného mlieka alebo šľahačky. </p>
+      <br>
+      <img src="https://culinaryginger.com/wp-content/uploads/Caf%C3%A9-Mochachino-Recipe-6.jpg" alt="">
+    </div>
+
+
+  </div>
+</section>
+
+
+
+<section class="footer">
+
+  <h2>O nás</h2>
+  <br>
+  <p>Kontaktovať nás môžeš aj na našich sociálnych sieťach.</p>
+
+  <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+  </div>
+  <br>
+  <br>
+  <p>Autorka stránky <i class="fa fa-heart-o"></i> Katarína Ganobjáková</p>
+
+</section>
+
+
+
+<script>
+
+  let navLinks = document.getElementById("navLinks");
+
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+
+</script>
+
+
+</body>
+</html>
