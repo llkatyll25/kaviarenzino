@@ -1,0 +1,245 @@
+<?php
+/*
+* English
+*/
+$config['charset'] = 'utf-8';
+?><?php
+/*
+* Translations visible in front-end and back-end. Must be translated!
+*/
+$lang['404_error'] = "Chyba 404 - stránka nenájdená";
+$lang['back'] = "späť";
+$lang['Basket_add'] = "Pridať do košíka";
+$lang['Basket_empty'] = "Košík je prázdny";
+$lang['Basket_products'] = "Produkty v košíku";
+$lang['cf_mail'] = "Zadajte e-mailovú adresu";
+$lang['cf_no_word'] = "Prosím vyplňte všetky požadované polia";
+$lang['cf_wrong_value'] = "Zadajte správne hodnoty";
+$lang['Checkout'] = "Pokladňa";
+$lang['City'] = "Mesto";
+$lang['Comment'] = "Komentár";
+$lang['Company'] = "Spoločnosť";
+$lang['Continue_shopping'] = "« Pokračovať v nákupe";
+$lang['Data_not_found'] = "Žiadne údaje neboli nájdené";
+$lang['Date'] = "Dátum";
+$lang['Default'] = "Predvolené";
+$lang['Delete'] = "Vymazať";
+$lang['Email'] = "E-Mail";
+$lang['First_and_last_name'] = "Meno a priezvisko";
+$lang['First_name'] = "Meno";
+$lang['Last_name'] = "Priezvisko";
+$lang['Menu_3'] = "Produkty";
+$lang['Name'] = "Meno";
+$lang['Operation_completed'] = "Operácia úspešne dokončená";
+$lang['Order_customer_email_foot'] = "";
+$lang['Order_customer_email_head'] = "";
+$lang['Order_customer_info_title'] = "Ďakujeme Vám za objednávku. Číslo Vašej objednávky je: ";
+$lang['Order_customer_personal'] = "Vaše osobné údaje";
+$lang['Order_customer_products'] = "Objednané produkty";
+$lang['Order_customer_shipping'] = "Doručenie a platba";
+$lang['Page_next'] = "Ďalej »";
+$lang['Page_prev'] = "« Dozadu";
+$lang['Pages'] = "Stránky";
+$lang['preview'] = "zobraziť";
+$lang['Price'] = "Cena";
+$lang['print'] = "tlačiť";
+$lang['Products'] = "Produkty";
+$lang['Quantity'] = "Množstvo";
+$lang['Remember_basket'] = "Uložiť košík";
+$lang['Require_rules_accept'] = "Musíte súhlasiť s obchodnými podmienkami";
+$lang['required'] = "požadovaný";
+$lang['Rules_accept'] = "Súhlasím s obchodnými podmienkami";
+$lang['rules_read'] = "zobraziť obchodné podmienky";
+$lang['save'] = "uložiť";
+$lang['search'] = "hľadať";
+$lang['Search_form'] = "Hľadáčik";
+$lang['Select'] = "Vyberte";
+$lang['Select_shipping_and_payment'] = "Vyberte si spôsob platby a doručenia";
+$lang['Send_order'] = "Odoslať objednávku";
+$lang['Shipping_and_payment'] = "Doručenie a platba";
+$lang['Skip_to_content'] = "Prejsť na obsah stránky";
+$lang['Skip_to_main_menu'] = "Prejsť k hlavnému menu";
+$lang['Skip_to_search'] = "Prejsť na vyhľadávacie pole";
+$lang['Sort_by'] = "Usporiadať podľa:";
+$lang['Street'] = "Ulica";
+$lang['Summary'] = "Celkom";
+$lang['Summary_cost'] = "Celkom cena";
+$lang['Telephone'] = "Telefón";
+$lang['View_all'] = "Zobraziť všetko";
+$lang['Your_personal_data'] = "Vaše osobné údaje";
+$lang['Zip_code'] = "PSČ";
+
+/*
+* Translations visible only in back-end. It does not require translation
+*/
+$lang['Subpage_show_1'] = "Zoznam (názov)";
+$lang['Subpage_show_2'] = "Zoznam (názov, popis)";
+$lang['Subpage_show_3'] = "Zoznam (názov, popis, obrázok)";
+$lang['Subpage_show_4'] = "Novinky (názov, popis, obrázok)";
+$lang['Subpage_show_5'] = "Galéria (meno, obrázok)";
+$lang['Subpage_show_0'] = "Žiadne zobrazenie";
+$lang['Active'] = "Aktívne";
+$lang['Add_files'] = "Pridať súbory";
+$lang['Added_to'] = "Pridané do";
+$lang['Additional_info'] = "Ďalšie informácie";
+$lang['Address'] = "Adresa";
+$lang['Admin'] = "Administrácia";
+$lang['Admin_items_on_page'] = "Elementov na stránke v administrácii";
+$lang['Admin_language'] = "Jazyk administrácie";
+$lang['Admin_see_hidden_pages'] = "Administrátor vidí skryté stránky a produkty";
+$lang['Advanced'] = "Pokročilé";
+$lang['All_pages'] = "Všetky stránky";
+$lang['All_status'] = "Položky so všetkými stave";
+$lang['Basket_page'] = "Stránka s košíkom";
+$lang['Cancel'] = "Zrušiť";
+$lang['cf_to_small_value'] = "Hodnota je príliš nízka";
+$lang['cf_txt_to_short'] = "Text je príliš dlhý";
+$lang['Change_files_names'] = "Zmeniť názov súboru podľa stránky, produktu";
+$lang['Change_login_and_pass'] = "Zmeňte prístupové meno a heslo v nastaveniach";
+$lang['Change_login_and_pass_to_use_script'] = "Zmena prihlasovacie meno a heslo použiť skript!";
+$lang['Change_status'] = "Zmeniť vybrané pre";
+$lang['Check_for_fixes'] = "Uistite sa, že ste použili všetky dostupné opravy chýb.";
+$lang['Choose_files_to_attach'] = "Vyberte súbory zo servera a uložiť formulár";
+$lang['Clone_data_from_basic_language'] = "Kopírovať dáta z jazyka";
+$lang['Contact'] = "Kontakt";
+$lang['Currency_symbol'] = "Mena";
+$lang['dashboard'] = "dashboard";
+$lang['Dashboard'] = "Dashboard";
+$lang['Default_language'] = "Predvolený jazyk";
+$lang['delete'] = "Vymazať";
+$lang['Delete_unused_files'] = "Odstránenie nepoužívaných súborov zo servera";
+$lang['Description'] = "Popis";
+$lang['display'] = "zobraziť";
+$lang['Display_expanded_menu'] = "Zobraziť rozbalené menu";
+$lang['Display_remember_basket'] = "Zobrazenie tlačidla 'Uložiť košík'";
+$lang['Display_subcategory_products'] = "Zobrazovať produkty v nadradenej kategórii";
+$lang['Display_tabs'] = "Zobraziť záložky";
+$lang['edit'] = "upraviť";
+$lang['example'] = "napr.";
+$lang['Extend'] = "Rozšíriť";
+$lang['Failed_login_wait_time'] = "Vyčerpaný počet neplatných prihlásení<br />Skúste znovu za 15 minut.";
+$lang['FAQ'] = "FAQ";
+$lang['File'] = "Súbor";
+$lang['Files'] = "Súbory";
+$lang['Files_from_computer'] = "Vyberte súbory z počitača";
+$lang['Files_on_server'] = "Vyberte súbory zo servera";
+$lang['Foot_info'] = "Informácia v pätičke";
+$lang['Forgot_your_password'] = "Zabudli ste heslo?";
+$lang['Forum'] = "Forum";
+$lang['Full_description'] = "Úplný popis";
+$lang['Gallery'] = "Galéria";
+$lang['Hidden'] = "Skrytý";
+$lang['hide'] = "schovať";
+$lang['Hide_tabs'] = "Skryť záložky";
+$lang['homepage'] = "homepage";
+$lang['Id'] = "Id";
+$lang['Image_over_max_dimension'] = "Obrázok je príliš veľký vytvoriť miniatúru";
+$lang['Increase_security'] = "Zlepšite váš skript je bezpečnosť. Prečítajte si naše tipy";
+$lang['Items'] = "Položiek";
+$lang['Key_words'] = "Kľúčové slová";
+$lang['Language'] = "Jazyk";
+$lang['Language_in_url'] = "Zobraziť jazyk v URL";
+$lang['Languages'] = "Jazyky";
+$lang['Last_login'] = "Posledné prihlásenie";
+$lang['Left'] = "Vľavo";
+$lang['License'] = "Licencie";
+$lang['log_in'] = "prihlásiť";
+$lang['log_out'] = "odhlásiť";
+$lang['Login'] = "Prihlásiť";
+$lang['Logo'] = "Logo";
+$lang['Mail_informing'] = "E-mail administrátora";
+$lang['Manual'] = "Manuál";
+$lang['Menu'] = "Menu";
+$lang['Menu_0'] = "Skryté stránky";
+$lang['Menu_1'] = "Hlavné menu nad bannerom";
+$lang['Menu_2'] = "Hlavné menu pod bannerom";
+$lang['Meta_description'] = "Meta popis";
+$lang['More'] = "Viac";
+$lang['Need_more'] = "Potrebujete viac?";
+$lang['New_events'] = "Nové udalosti";
+$lang['New_language'] = "Nový jazyk";
+$lang['New_page'] = "Nová stránky";
+$lang['New_payment_method'] = "Nový typ platby";
+$lang['New_product'] = "Nový produkt";
+$lang['New_shipping'] = "Nový typ doručenia";
+$lang['News_from_os'] = "Viac od OpenSolution.org";
+$lang['no'] = "nie";
+$lang['none'] = "nič";
+$lang['Notifications'] = "Upozornenie";
+$lang['Operation_sure'] = "Naozaj to chcete urobiť ?";
+$lang['Operation_sure_delete'] = "Ste si istí, že chcete zmazať?";
+$lang['Operation_unknown'] = "Chyba: neznáma operácia";
+$lang['Options'] = "Možnosti";
+$lang['Order'] = "Objedávka";
+$lang['Order_page'] = "Stránka s objednávkou";
+$lang['Order_print'] = "Stránka na tlač objednávky";
+$lang['Orders'] = "Objednávky";
+$lang['Orders_canceled'] = "Zrušené";
+$lang['Orders_finished'] = "Dokončené";
+$lang['Orders_pending'] = "Čakajúce";
+$lang['Orders_processing'] = "Spracováva sa";
+$lang['Orders_search_products'] = "Hľadať v produktoch";
+$lang['Page_search'] = "Stránka s výsledkami vyhľadávania";
+$lang['Page_title'] = "Názov stránky";
+$lang['Pages_form'] = "Formulár stránky";
+$lang['Parent_page'] = "Nadriadená stránka";
+$lang['Password'] = "Heslo";
+$lang['Payment_method'] = "Platba";
+$lang['Payment_method_form'] = "Platba formulár";
+$lang['Payment_methods'] = "Platby";
+$lang['Photo_place'] = "Umiestnenie obrázku";
+$lang['Plugins'] = "Pluginy";
+$lang['Position'] = "Pozícia";
+$lang['Product_available'] = "Dostupnosť produktu";
+$lang['Products_and_payment'] = "Produkty a platby";
+$lang['Products_form'] = "Úprava produktu";
+$lang['Products_on_page'] = "Produktov na stránke";
+$lang['Right'] = "Vpravo";
+$lang['Rules_page'] = "Stránka s obchodnými podmienkami";
+$lang['save_add_new'] = "uložiť a pridať ďalšie";
+$lang['save_list'] = "uložiť a ísť na zoznam";
+$lang['Send_customer_order_details'] = "Zaslať podrobnosti objednávky na e-mail zákazníka.";
+$lang['SEO'] = "SEO";
+$lang['Settings'] = "Nastavenia";
+$lang['Shipping'] = "Doručenie";
+$lang['Shipping_form'] = "Doprava formulár";
+$lang['Short_description'] = "Krátky popis";
+$lang['Skin'] = "Vzhľad";
+$lang['Skins'] = "Skiny";
+$lang['Slogan'] = "Slogan";
+$lang['Sort_products'] = "Možnosť zmeniť zoradenie produktov";
+$lang['Start_page'] = "Úvodná stránka";
+$lang['Status'] = "Stav";
+$lang['Subpages'] = "Podstránky";
+$lang['Support'] = "Podpora";
+$lang['Theme'] = "Téma";
+$lang['Thumbnail_1'] = "Náhľad 1";
+$lang['Thumbnail_2'] = "Náhľad 2";
+$lang['Tools'] = "Nástroje";
+$lang['Translation_visible_all'] = "Preklad pre administráciu a klientov - musí byť preložený";
+$lang['Translation_visible_back_end'] = "Preklad len pre administráciu - nemusí byť preložený";
+$lang['Upload_failed'] = "Nahranie zlyhalo";
+$lang['Upload_language_file'] = "Nahrať súbor s jazykom";
+$lang['Upload_language_file_info'] = "Stiahnuté z OpenSolution.org s príponou '.php' ";
+$lang['Url_name'] = "Názov URL";
+$lang['Use_language'] = "Vytvoriť jazyk podľa";
+$lang['Wrong_login_or_pass'] = "Nesprávne prihlasovacie meno alebo heslo. Skúste znovu";
+$lang['WYSIWIG_editor'] = "WYSIWYG editor";
+$lang['yes'] = "áno";
+$lang['Yes'] = "Áno";
+$lang['Yes_without_files'] = "Áno, bez súborov";
+
+/*
+* Dont change below
+*/
+if( !defined( 'LANG_YES_SHORT' ) )
+  define( 'LANG_YES_SHORT', $lang['yes'] );
+if( !defined( 'LANG_NO_SHORT' ) )
+  define( 'LANG_NO_SHORT', $lang['no'] );
+if( !defined( 'LANG_PAGE_PREV' ) )
+  define( 'LANG_PAGE_PREV', $lang['Page_prev'] );
+if( !defined( 'LANG_PAGE_NEXT' ) )
+  define( 'LANG_PAGE_NEXT', $lang['Page_next'] );
+?><?php
+// plugins
+?>
